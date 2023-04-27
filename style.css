@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background: #121214;
+
+  font-family: 'League Spartan', sans-serif;
+  color: #FFFFFF;
+}
+
+main {
+  max-width: 30rem;
+}
+
+h1 {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #08C05E;
+}
+
+img {
+  max-width: 20rem;
+}
