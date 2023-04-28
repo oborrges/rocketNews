@@ -18,18 +18,44 @@ body {
 
 main {
   max-width: 30rem;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 23rem;
+  margin: 3.0rem auto 0;
+
 }
 
 h1 {
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 2.0rem;
+  line-height: 2.8rem;
 
   color: #08C05E;
+
+  display: block;
+
+  margin: 1rem 0 2rem;
 }
 
-img {
-  max-width: 20rem;
+p span {
+  font-family: 'League Spartan';
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+
+  display: block;
+
+  margin: 0 0 1rem;
 }
+
+p {
+  font-family: 'League Spartan';
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+}
+
