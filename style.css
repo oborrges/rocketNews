@@ -21,7 +21,7 @@ main {
   margin: 0 auto;
 }
 
-img {
+header img {
   max-width: 23rem;
   margin: 3.0rem auto 0;
 
@@ -59,3 +59,54 @@ p {
   line-height: 1.9rem;
 }
 
+section {
+  max-width: 30rem;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+
+  background-image: url(./assets/send.svg);
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+
+}
+
+legend {
+  padding: 1rem 0 0.1rem;
+  font-family: 'League Spartan';
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 138.73%;
+
+  color: #A8A8A8;
+}
+
+input {
+  min-width: 85%;
+  min-height: 3.2rem;
+  border: none;
+  border-left: 4px solid #08C05E;
+
+  font-family: 'Work Sans';
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: #6A6A6A;
+
+  padding-left: 1rem;
+}
+
+input::placeholder {
+  font-family: 'Work Sans';
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: #6A6A6A;
+}
+
+fieldset img {
+  background: #8257E5;
+  min-width: 3.2rem;
+}
