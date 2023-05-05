@@ -91,7 +91,7 @@ input {
   min-height: 3.2rem;
   border: none;
   border-left: 4px solid #08C05E;
-  border-radius: none;
+  border-radius: 0;
 
   font-family: 'Work Sans';
   font-weight: 400;
