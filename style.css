@@ -16,21 +16,24 @@ body {
   color: #FFFFFF;
 }
 
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 main {
   max-width: 30rem;
   margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
 }
 
-header {
-  max-width: 30rem;
-}
-
-header img {
+#logo img {
   display: flex;
   max-width: 23rem;
   margin: 3.0rem 0 3rem;
-
 }
 
 h1 {
@@ -65,7 +68,7 @@ p {
   line-height: 1.9rem;
 }
 
-section {
+section.form {
   max-width: 30rem;
 }
 
@@ -101,7 +104,7 @@ input {
 
   padding-left: 1rem;
 
- 
+  outline: none;
 }
 
 input::placeholder {
@@ -141,4 +144,24 @@ a {
   align-items: center;
 
   margin-top: 2rem;
+}
+
+#img-right img{
+  max-width: 30rem;
+  
+}
+
+@media (min-width: 700px) {
+.page {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 3rem;
+
+}
+
+#img-right img {
+  min-width: 45rem;
+}
+  
 }
