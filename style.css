@@ -160,8 +160,19 @@ a {
 
 }
 
+main {
+  max-width: 50rem;
+}
+
+
+input {
+  min-width: 115%;
+  min-height: 3.2rem;
+}
+
 #img-right img {
   min-width: 45rem;
+  z-index: -2;
 }
   
 }
