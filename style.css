@@ -163,10 +163,25 @@ a {
  
 }
 
+main {
+  max-width: 50rem;
+}
+
+
+input {
+  min-width: 115%;
+  min-height: 3.2rem;
+}
+
 #img-right img {
+<<<<<<< HEAD
   min-width: 100vw;
   position: relative;
   z-index: -5;
+=======
+  min-width: 45rem;
+  z-index: -2;
+>>>>>>> 64713a28e313e8b7b871f3cea6362dd3a759245e
 }
   
 }
