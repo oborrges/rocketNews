@@ -153,15 +153,20 @@ a {
 
 @media (min-width: 700px) {
 .page {
+  height: 100vh;
   display: flex;
+  align-items: center;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   padding: 3rem;
-
+  position: absolute;
+ 
 }
 
 #img-right img {
-  min-width: 45rem;
+  min-width: 100vw;
+  position: relative;
+  z-index: -5;
 }
   
 }
