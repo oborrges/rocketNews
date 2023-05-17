@@ -151,61 +151,101 @@ a {
 }
 
 @media (min-width: 700px) {
-.page {
-  min-width: 50vw;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 3rem;
-  position: absolute; 
-}
+  .page {
+    min-width: 50vw;
+    min-height: 100vh;
+
+    padding-left: 2rem;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute; 
+  }
 
 
-.desktop-left {
-  max-width: 35rem;
-}
+  .desktop-left {
+    max-width: 35rem;
+  }
 
-.desktop-left::before {
-  content: '';
-  min-width: 50vw;
-  min-height: 100vh;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  background: #121214;
-}
-
-main {
-  max-width: 32rem;
-}
-
-input {
-  min-width: 45rem;
-  min-height: 3.2rem;
-}
-
-#img-right {
-  min-width: 100vw;
-  min-height: 100vh;
-  position: absolute;
-}
-
-#img-right img {
-  min-width: 100vw;
-  position: relative;
-
-  z-index: -2;
-}
-}
-
-@media  (min-width: 1440px) {
-  .desktop-left::before {
+  body::before {
     content: '';
     min-width: 50vw;
     min-height: 100vh;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #121214;
+  }
+
+  main {
+    max-width: 32rem;
+  }
+
+  input {
+    min-width: 45rem;
+    min-height: 3.2rem;
+  }
+
+  #img-right {
+    min-width: 100vw;
+    position: absolute;
+
+    display: flex;
+  }
+
+  #img-right img {
+    min-width: 100vw;
+    position: relative;
+
+    z-index: -2;
+
+    margin: 0 auto;
+  }
 }
+
+@media  (min-width: 1024px) {
+
+  .page {
+    min-width: 50rem;
+  }
+
+  #logo img {
+    display: flex;
+    max-width: 39rem;
+    margin: 5.0rem 0 9rem;
+  }
+
+  main {
+    min-width: 45rem;
+  }
+
+  .desktop-left {
+    min-width: 50rem;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+    padding-bottom: 9px;
+  }
+
+  p span {
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    padding-bottom: 9px;
+  }
+
+  p {
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    
+  }
+
+  input {
+    min-width: 65rem;
+    min-height: 4.8rem;
+  }
 }
